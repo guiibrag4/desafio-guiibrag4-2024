@@ -1,0 +1,15 @@
+O que eu já fiz? 
+
+-Tamanho dos recintos;
+-Animais disponíveis e limitação;
+-Verificação do número correto de animais;
+-Script de inicialização;
+-Chamadas para dar entrada de animais;
+-Limitação de acordo com o espaço;
+
+
+O que ainda falta fazer? 
+
+1- Inserção dos animais nos habitats (incluindo perguntar em qual recinto quer incluir e decrementar a quantidade);
+2- Toda a organização lógica dos animais com o habitat e preferências (cárnivoro, hipopótomo e macaco);
+5- Depuração e subir o código.
