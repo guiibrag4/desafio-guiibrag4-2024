@@ -46,7 +46,7 @@ Sua missão será construir a lógica para indicar os recintos onde novos animai
 
   Tamanho que irão ocupar --> 15 
 
-  Hipopotamo - 2 habitats  
+  Hipopotamo - 2 habitats 
   Macaco - 2 habitats 
 
 ### REGRAS PARA ENCONTRAR UM RECINTO

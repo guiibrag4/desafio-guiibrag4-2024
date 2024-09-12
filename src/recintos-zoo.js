@@ -6,7 +6,7 @@ class RecintosZoo {
             { nome: 'Recinto 2', habitat: 'Bioma: floresta', espacoLivre: 5, total: 5 },
             { nome: 'Recinto 3', habitat: 'Bioma: savana e rio', espacoLivre: 5, total: 7},
             { nome: 'Recinto 4', habitat: 'Bioma: rio', espacoLivre: 8, total: 8 },
-            { nome: 'Recinto 5,', habitat: ' Bioma: savana', espacoLivre: 6, total: 9 }
+            { nome: 'Recinto 5', habitat: ' Bioma: savana', espacoLivre: 6, total: 9 }
         ];
 
         const animaisValidos = ['LEÃO', 'LEOPARDO', 'CROCODILO', 'MACACO', 'GAZELA', 'HIPOPOTAMO'];
