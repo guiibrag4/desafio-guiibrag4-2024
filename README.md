@@ -30,6 +30,12 @@ Sua missão será construir a lógica para indicar os recintos onde novos animai
   tamanho total --> 39
   espaço livre  --> 31
 
+  Carnívoros só podem habitar com animais da mesma espécie, então, 2 Leões apenas podem ir para a recinto 5;
+  Hipopotamos só toleram outra espécie em recinto com savana e rio, então criar essa condição e deixar espaço para crocodilos no Rio;
+  Macacos precisam de outro animal no recinto;
+  Se tiver mais de uma espécie no recinto, considerar 1 espaço extra no recinto;
+
+
 ### ANIMAIS
 
  O zoológico só está habilitado a tratar dos animais abaixo.
@@ -44,11 +50,6 @@ Sua missão será construir a lógica para indicar os recintos onde novos animai
   | GAZELA     |   2     |  savana              |
   | HIPOPOTAMO |   4     |  savana ou rio       |
 
-  Tamanho que irão ocupar --> 15 
-
-  Hipopotamo - 2 habitats 
-  Macaco - 2 habitats 
-
 ### REGRAS PARA ENCONTRAR UM RECINTO
 
 1) Um animal se sente confortável se está num bioma adequado e com espaço suficiente para cada indivíduo
@@ -59,10 +60,6 @@ Sua missão será construir a lógica para indicar os recintos onde novos animai
 6) Quando há mais de uma espécie no mesmo recinto, é preciso considerar 1 espaço extra ocupado
 7) Não é possível separar os lotes de animais nem trocar os animais que já existem de recinto (eles são muito apegados!).
 Por exemplo, se chegar um lote de 12 macacos, não é possível colocar 6 em 2 recintos.
-
-Macaco, hipopótamo e Gazela não podem habitar com cárnivoros, logo sobram 7+6= 13 espaços para eles. Macaco 1, Gazela 2 e hipopotamo 4 = 7 espaços.
-
-
 
 ### ENTRADAS E SAÍDAS
 
